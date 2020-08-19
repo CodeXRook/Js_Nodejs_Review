@@ -5,6 +5,6 @@
            
            console.log(fooArray);
 
-           for ( let i=0; i<0; i++) {
+           for ( let i=0; i<10; i++) {
                console.log(i);
            }
