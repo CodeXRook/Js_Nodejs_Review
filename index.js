@@ -35,3 +35,9 @@ class Lion {
         this.hairColor = hairColor;
     }
 }
+
+const goldenLion = new Lion('Mufasa', 'golden');
+const redLion = new Lion('Scar', 'red');
+
+console.log(goldenLion);
+console.log(redLion);
