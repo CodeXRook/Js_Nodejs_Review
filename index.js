@@ -30,7 +30,8 @@
 
 
 class Lion {
-    constructor(){
-        
+    constructor(name, hairColor) {
+        this.name = name;
+        this.hairColor = hairColor;
     }
 }
