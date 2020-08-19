@@ -22,4 +22,6 @@
              console.log(paramOne, paramTwo);
            }
 
-           runLoop('Zoo', 'Bat');
+           const logBam = () => console.log('bam');
+
+           runLoop('Zoo', logBam);
