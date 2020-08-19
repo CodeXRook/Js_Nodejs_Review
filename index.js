@@ -8,9 +8,13 @@
            //For loop
            for ( let i=0; i<10; i++) {
                 //Condition
-                if(i == 5) {
+                //=== is strickly the same type exactly 
+                //== check for the same type regargless act as a conditional value 
+                if(i === 5) {
                     console.log('i is 5!!!');
                 }
 
                console.log(i);
            }
+
+           if ( undefined) {console.log('hi');} else { console.log('bye');}
