@@ -20,6 +20,8 @@
              }
 
              console.log(paramOne, paramTwo);
+             paramTwo();
+             
            }
 
            const logBam = () => console.log('bam');
