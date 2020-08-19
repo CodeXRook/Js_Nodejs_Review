@@ -34,6 +34,10 @@ class Lion {
         this.name = name;
         this.hairColor = hairColor;
     }
+
+    logName(){
+        console.log('Roar! I am', this.name);
+    }
 }
 
 const goldenLion = new Lion('Mufasa', 'golden');
@@ -41,3 +45,6 @@ const redLion = new Lion('Scar', 'red');
 
 console.log(goldenLion);
 console.log(redLion);
+
+goldenLion.logName();
+redLion.logName();
