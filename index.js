@@ -4,3 +4,7 @@
            fooArray = ['foo', 'bar', 'goo'];
            
            console.log(fooArray);
+
+           for ( let i=0; i<0; i++) {
+               console.log(i);
+           }
