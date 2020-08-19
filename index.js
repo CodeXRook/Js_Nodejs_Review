@@ -5,8 +5,10 @@
            
            console.log(fooArray);
 
-           //For loop
-           for ( let i=0; i<10; i++) {
+           // if ( undefined) {console.log('hi');} else { console.log('bye');}
+
+           const runLoop = (paramOne, paramTwo) => {
+            for ( let i=0; i<10; i++) {
                 //Condition
                 //=== is strickly the same type exactly 
                 //== check for the same type regargless act as a conditional value 
@@ -15,6 +17,9 @@
                 }
 
                console.log(i);
+             }
+
+             console.log(paramOne, paramTwo);
            }
 
-           if ( undefined) {console.log('hi');} else { console.log('bye');}
+           runLoop('Zoo', 'Bat');
